@@ -9,6 +9,11 @@
    
     <title>Document</title>
     <style>
+              
+        #form{
+            margin-top: 10px;
+            margin-left:  50px;
+        }
         th{
             border: 1px solid red;
             text-align: center;
@@ -24,15 +29,15 @@
 
    <form id="form">  
     <label for="">First Name</label><br>
-    <input type="text" placeholder="First Name"><br>
+    <input type="text" placeholder="First Name" required><br>
     <label for="">Last Name</label><br>
-    <input type="text" placeholder="Last Name"><br>
+    <input type="text" placeholder="Last Name" required><br>
     <label for="">Email</label><br>
-    <input type="email" placeholder="E-mail" ><br>
+    <input type="email" placeholder="E-mail" required><br>
     <label for="">Password</label><br>
-    <input type="password" placeholder="Password"><br>
+    <input type="password" placeholder="Password" required><br>
     <label for="">Number</label><br>
-    <input type="number"  placeholder="Mobile No"><br>
+    <input type="number"  placeholder="Mobile No" required><br>
     <br>
     <button type="submit">Submit</button>
 </form>
